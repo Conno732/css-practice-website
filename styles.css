@@ -1,0 +1,267 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(204, 200, 200);
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    height: 128px;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 24px;
+    flex-shrink: 0;
+    padding-bottom: 64px;
+}
+
+.logo{
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.right-links{
+    display: flex;
+    gap: 24px;
+}
+
+.content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*section 1 content start*/
+.section1{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-grow: 0;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: flex-start;
+    padding-bottom: 128px;
+}
+
+.section1-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    flex-grow: 1;
+
+}
+
+.text{
+    font-size: 22px;
+    color: rgb(204, 204, 204);
+    padding-bottom: 16px;
+}
+
+.section1-button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 30%;
+    height: 42px;
+    border-radius: 8px;
+}
+
+.placeholder{
+    width: 50%;
+    height: 85%;
+    margin-right: 0;
+}
+
+.placeholderIMG{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    font-size: 52px;
+    font-weight: bolder;
+}
+/*section 1 content end*/
+
+/*section 2 content start */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    flex-grow: 0;
+    padding-top: 40px;
+    padding-bottom: 98px;
+    max-height: 100%;
+}
+
+.title-2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    padding-bottom: 52px;
+    padding-top: 32px;
+}
+
+.content-section2{
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    gap: 11%;
+}
+
+.img-info-group{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-icon{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(99, 99, 99);
+}
+
+.placeholderIcon{
+    width: 130%;
+    height: 100%;
+    border: 6px solid #3882f6;
+    border-radius: 8px;
+}
+
+/*section 2 content end*/
+
+/*section 3 content start*/
+.section3{
+    display: flex;
+    padding-left: 23%;
+    padding-right: 23%;
+    flex-grow: 0;
+    flex-direction: column;
+    background-color: rgb(231, 230, 230);
+    padding-bottom: 164px;
+    padding-top: 164px;
+}
+
+.quote{
+    font-style:oblique;
+    color: #1f2937;
+    font-size: 42px;
+}
+
+.quotee{
+    font-weight: bold;
+    font-size: 32px;
+    align-self:flex-end;
+    
+}
+
+/*section 3 content end*/
+
+/*section 4 content start*/
+.section4{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-grow: 0;
+}
+
+.blueBack{
+    display: flex;
+    background-color: #3882f6;
+    width: 100%;
+    margin-bottom: 128px;
+    margin-top: 128px;
+    padding: 64px;
+    padding-left: 164px;
+    padding-right: 164px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.section4-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.section4-content{
+    font-size: 20px;
+    color: rgb(222, 223, 223);
+}
+
+.sign-up{
+    background-color: #3882f6;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    border-style:solid;
+    font-weight: bold;
+    font-size: 18px;
+    width: 164px;
+    height: 42px;
+    border-radius: 8px;
+}
+
+/*section 4 content end*/
+
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color:#1f2937;
+    color: whitesmoke;
+    height: 72px;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 24px;
+    margin-bottom: -1px;
+}
